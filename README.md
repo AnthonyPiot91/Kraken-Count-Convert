@@ -1,2 +1,2 @@
-# Kraken_count_convert
+# Kraken Count Convert
 Convert Kraken report read count to nucleotide count
