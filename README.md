@@ -2,7 +2,7 @@
 Convert Kraken read count to nucleotide count
 
 ## Step 1: Create kraken inspect file
-Before running `convert_kraken_report_read_count_to_bases.py` or `convert_kraken_log_read_count_to_bases.py` you will need to run `kraken-inspect` on the database you used to obtain you Kraken results using the `--use-mpa-style` option.
+Before running `convertReports.py` or `convertLogs.py` you will need to run `kraken-inspect` on the database you used to obtain you Kraken results using the `--use-mpa-style` option.
 
 > kraken-inspect --db <your_DB> --use-mpa-style > kraken2-inspect_results
 
